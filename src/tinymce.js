@@ -72,7 +72,7 @@ angular.module('ui.tinymce', [])
               })(ed);
             }, debouncedUpdateDelay);
           };
-        })(400);
+        })(40);
 
         var setupOptions = {
           // Update model when calling setContent
